@@ -52,6 +52,7 @@ To use, create a new Calender instance and generate it, below you'll find severa
 		$cal->setHeadClass('table-header'); //Set top header's class name
 		$cal->setNextClass('btn'); // Set next btn class name
 		$cal->setPrevClass('btn'); // Set Prev btn class name
+		$cal->setTodayClass( 'active' ); // *NEW: Set the 'today' class name
 		$cal->setEvents($events); // Receives the events array
 		/**** END OPTIONAL METHODS ****/
 
